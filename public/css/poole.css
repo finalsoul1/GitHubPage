@@ -275,9 +275,22 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
-  background-color: #f9f9f9;
+  background-color: #dbdbdb;
 }
 
+.floatMessage{
+  display: inline;
+  font-size: 12px;
+}
+
+.aMar{
+  color: #dd9450;
+}
+
+#sibamas{
+  float: right;
+  width: 9rem;
+}
 
 /*
  * Container

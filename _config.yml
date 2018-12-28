@@ -27,10 +27,10 @@ url: https://finalsoul1.github.io/
 baseurl: /
 
 # Website info
-title: Kwon blog
+title: Kwon
 tagline: 'A Jekyll theme'
 
-description: Kwon's Development
+description: Development & diary
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
 cover: assets/images/blog-cover.jpg

@@ -3,28 +3,24 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<div class="message">
+  <h3>권병준</h3>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+  건건동<br>
+  finalsoul1@gmail.com
 
-There are currently two themes built on Poole:
+  <br>
+  <i class="fab fa-java fa-3x"></i>
+  <i class="fab fa-android fa-3x"></i>
+  <i class="fab fa-github fa-3x"></i>
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+  <i class="fab fa-js-square fa-3x"></i>
+  <i class="fab fa-vuejs fa-3x"></i>
+  <i class="fab fa-angular fa-3x"></i>
+  <i class="fab fa-node-js fa-3x"></i>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+  <i class="fab fa-linux fa-3x"></i>
+  <i class="fab fa-centos fa-3x"></i>
+  <i class="fab fa-ubuntu fa-3x"></i>
+  
+</div>
