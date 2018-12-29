@@ -60,6 +60,27 @@
 .highlight .vi { color: #033 } /* Name.Variable.Instance */
 .highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
 
+/* 내가 수정한 css */
+
+/* 터미널 배경 */
+.language-terminal .highlight {
+    background-color: #000;
+}
+
+/* 터미널 글자 */
+.language-terminal .highlight .go {
+    color: white;
+}
+
+/* yml 배경 */
+.language-yml .highlight {
+    background-color: rgb(22, 22, 22);
+}
+
+.small-massage {
+    font-size: 10px;
+}
+
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
