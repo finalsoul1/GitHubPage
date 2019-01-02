@@ -258,3 +258,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+/* 내가 수정한 css */
+
+.small-massage {
+  font-size: 14px;
+}

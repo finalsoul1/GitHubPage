@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Development
+layout: search
+title: Search
 ---
 
 <div class="message">

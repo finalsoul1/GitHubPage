@@ -68,9 +68,14 @@
 }
 
 /* 터미널 글자 */
-.language-terminal .highlight .go {
-    color: white;
-}
+.language-terminal .highlight .go { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight .gp { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight .nt { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight .nb { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight .nv { color: rgb(218, 218, 218); }
+.language-terminal .highlight .highlight .o { color: rgb(218, 218, 218); }
+
 
 /* yml 배경 */
 .language-yml .highlight {
@@ -78,7 +83,7 @@
 }
 
 .small-massage {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .css .o,

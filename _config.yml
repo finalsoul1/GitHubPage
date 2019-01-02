@@ -27,7 +27,7 @@ url: https://finalsoul1.github.io/
 baseurl: /
 
 # Website info
-title: Kwon
+title: Kwon의 공부로그
 tagline: 'A Jekyll theme'
 
 description: Development & diary
@@ -54,7 +54,7 @@ CNAME: #add cname for website to be created
 navigation: True 
 # Navigation bar link를 보여줄건지 여부
 
-subscribers: True 
+# subscribers: True 
 # subscriber 기능을 사용할건지의 여부
 # 저는 약간의 수정을 통해 subscriber 기능대신
 # lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
@@ -85,7 +85,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-algolia]
 
 feed:
   path: feed.xml
@@ -113,6 +113,13 @@ destination: ./output/
 
 production_url:  https://finalsoul1.github.io/
 source_url:  https://github.com/finalsoul1/GitHubPage/
+
+
+# 검색
+algolia:
+   application_id: 0Z37HMK04O
+   index_name: jekyllblog
+   search_only_api_key: b1fb3520acd7a7a17146fbba2a7e0b7c
 
 # Custom vars
 version: 1.0.0
