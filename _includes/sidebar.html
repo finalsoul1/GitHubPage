@@ -9,6 +9,14 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    <!-- search box -->
+    <form action="/search">
+      <div class="tipue_search_box">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="최소 3글자 이상" placeholder="검색" required></div>
+      <div style="clear: both;"></div>
+    </form>
+    <br>
+
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 

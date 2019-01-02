@@ -8,9 +8,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+    {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
@@ -24,16 +24,24 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+KR">
-  
+
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   <!-- FontAwesome -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+  <!-- tipuesearch -->
+  <link rel="stylesheet" href="/public/tipuesearch/tipuesearch.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/public/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/public/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/public/tipuesearch/tipuesearch.min.js"></script>
 
 </head>

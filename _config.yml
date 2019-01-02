@@ -85,7 +85,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-algolia]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
 
 feed:
   path: feed.xml
@@ -116,10 +116,15 @@ source_url:  https://github.com/finalsoul1/GitHubPage/
 
 
 # 검색
-algolia:
-   application_id: 0Z37HMK04O
-   index_name: jekyllblog
-   search_only_api_key: b1fb3520acd7a7a17146fbba2a7e0b7c
+# algolia: 건방지게 id인증하는데 시간이 걸리는거 같아서 tipue로 바꿈
+tipue_search:
+  include: # 포함할 url을 선택한다. 기본적으로 posts에 들어있는 게시글은 자동으로 선택된다.
+    pages: false # posts 폴더 이외에 다른 문서 선택 여부 (true일 경우 모든 url이 포함된다.)
+    collections: []
+  exclude: # 제외시킬 url을 선택한다.
+    files: [search.html, index.html]
+    categories: []
+    tags: []
 
 # Custom vars
 version: 1.0.0
