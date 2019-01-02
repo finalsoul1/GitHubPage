@@ -63,10 +63,10 @@ var tipuesearch_string_6 = 'Back';
 var tipuesearch_string_7 = 'More';
 var tipuesearch_string_8 = '검색결과가 없습니다.';
 var tipuesearch_string_9 = 'Common words are largely ignored.';
-var tipuesearch_string_10 = '검색어가 너무 짧아요.';
+var tipuesearch_string_10 = '검색어가 너무 짧아요..';
 var tipuesearch_string_11 = 'Should be one character or more.';
 var tipuesearch_string_12 = '';
-var tipuesearch_string_13 = '글자 이상 써서 검색해주세용.';
+var tipuesearch_string_13 = '글자 이상 써서 검색해주세용~';
 var tipuesearch_string_14 = 'seconds';
 var tipuesearch_string_15 = 'Searches related to';
 
