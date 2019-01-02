@@ -272,10 +272,10 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
   background-color: #dbdbdb;
+  margin-bottom: 10px;
 }
 
 .floatMessage{

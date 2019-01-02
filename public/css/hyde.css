@@ -265,3 +265,26 @@ a.sidebar-nav-item:focus {
 .small-massage {
   font-size: 14px;
 }
+
+.img-round {
+  width: 20%;
+  height: 10%;
+  /* float: left; */
+  margin-right: 20px;
+}
+
+.about {
+  padding: 10px;
+  color: #717171;
+  background-color: #dbdbdb;
+}
+
+.about-icon {
+  display: inline;
+  width: 70px;
+}
+
+.about-iconSF {
+  display: inline;
+  width: 150px;
+}
