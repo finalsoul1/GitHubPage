@@ -23,7 +23,7 @@ tag: Linux
 # apt-get install kolourpaint4
 ```
 
-![Kolorpaint](/public/img/Kolourpaint.png)
+![Kolorpaint](/public/img/KolouPaint.png)
 
 그냥 뭐.. 그림판이다.
 
