@@ -36,3 +36,5 @@ grep 뒤 숫자는 PID 인데, 각자 `활성상태보기`에서 문제의 Code 
 vscode에서 기본으로 제공되는 익스텐션을 꺼버리거나 하고 싶을땐 익스텐션 탭에서 기본제공확장표시를 체크하면 목록을 확인할 수 있다.
 
 아무튼 해결ㅋㅋㅋ 나중에 typescript 쓸 때 다시 생각하든지, 패치가 됐든지, 다른 코드에디터를 사용하든지 하자.
+
+<a href="https://github.com/Microsoft/TypeScript/issues/26968" target="_sub">참고</a>
