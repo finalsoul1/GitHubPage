@@ -2,6 +2,7 @@
 layout: page
 title: About
 ---
+<br>
 
 <div class="about">
 

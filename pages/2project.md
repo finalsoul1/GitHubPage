@@ -2,6 +2,7 @@
 layout: page
 title: Project
 ---
+<br>
 
 <div class="message"> 
   <h3>당신과 함께하는 시장바구니, 시바</h3>

@@ -2,7 +2,7 @@
 layout: page
 title: Development
 ---
-
+<br>
 <div class="message">
 - Linux<br>
   {% for post in site.posts %}
