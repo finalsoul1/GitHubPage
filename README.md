@@ -1,1 +1,1 @@
-푸시하면 Travis-ci가 빌드하고 결과를 `finalsoul1.github.io` 레포지토리로 푸시한다.
+푸시하면 Travis-ci가 빌드결과인 /output 디렉토리 안의 소스들을  `finalsoul1.github.io` 레포지토리로 푸시한다. :thumbsup:
