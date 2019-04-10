@@ -18,3 +18,4 @@ MS 윈도우의 경우에는 기본적으로 하나의 시스템에 동시에 �
 터미널을 켜서 `ls -al`을 쳐보자
 ![ls -al](./public/img/direc-permission.png)
 
+---

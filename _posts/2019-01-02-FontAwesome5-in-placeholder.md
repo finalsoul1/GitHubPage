@@ -48,3 +48,5 @@ input::placeholder {
 ```
 요렇게 하면 된다  
 끗.
+
+---

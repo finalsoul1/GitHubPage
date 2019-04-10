@@ -2,7 +2,8 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #f8f8f2;
-  background-color: #272822;
+  background-color: #313a3a;
+  font-family: 'D2Coding';
 }
 .highlight .err {
   color: #272822;
@@ -80,4 +81,13 @@
 .highlighter-rouge {
   color: #222202;
   background-color: #e3e6d5;
+}
+
+.muted {
+  color: #9ab4b4;
+  font-size: 15px;
+}
+
+.marginx {
+  margin-bottom: 0px;
 }

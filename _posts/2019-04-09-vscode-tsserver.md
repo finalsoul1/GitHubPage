@@ -38,3 +38,5 @@ vscode에서 기본으로 제공되는 익스텐션을 꺼버리거나 하고 �
 아무튼 해결ㅋㅋㅋ 나중에 typescript 쓸 때 다시 생각하든지, 패치가 됐든지, 다른 코드에디터를 사용하든지 하자.
 
 <a href="https://github.com/Microsoft/TypeScript/issues/26968" target="_sub">참고</a>
+
+---
