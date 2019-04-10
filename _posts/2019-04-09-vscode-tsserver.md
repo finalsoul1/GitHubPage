@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VS Code Code Helper CPU 점유율 100% 문제
+title: VS Code - Code Helper CPU 점유율 100% 문제
 tag: etc
 ---
 
@@ -17,9 +17,9 @@ $ ps aux | grep 11005
 
 grep 뒤 숫자는 PID 인데, 각자 `활성상태보기`에서 문제의 Code Helper PID를 확인한 후 grep 뒤에 넣어서 확인하자.
 
-나 같은 경우는 `tsserver log` 찍는게 문제라는데 문제가 있어서 log를 찍는건지 log 찍는거 자체가 문제인건지..
+나 같은 경우는 `tsserver log` 찍는게 문제라는데, 문제가 있어서 log를 찍는건지 log 찍는거 자체가 문제인건지..
 
-`tssever log`를 확인하는 방법은 
+아무튼 `tssever log`를 확인하는 방법은 
 
 1. `settings.json`에서 
 ```
@@ -29,7 +29,7 @@ grep 뒤 숫자는 PID 인데, 각자 `활성상태보기`에서 문제의 Code 
 
 2. vs code를 재시작 한다.  
 3. 아무 코드를 수정하든지 해서 다시 cpu를 괴롭히자  
-4. command palette에서 `>open tsserver log` 를 입력하면 파인더가 log파일이 있는 디렉토리를 열어준다.
+4. command palette에서 `> open tsserver log` 를 입력하면 파인더가 log파일이 있는 디렉토리를 열어준다.
 
 참고로 나는 찬찬히 읽어보다가 빡쳐서 vscode에서 typescript 기능을 꺼버렸다. 난 typescript 안쓰거던..
 
