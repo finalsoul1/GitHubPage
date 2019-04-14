@@ -127,7 +127,7 @@ tipue_search:
     tags: []
 
 # Custom vars
-version: 1.0.0
+version: 1.0.3
 
 # exclude는 Jekyll컴파일 시 destination에 포함될 필요가
 # 없는것들을 명시한다. (node_modules는 포함시키자)

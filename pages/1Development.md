@@ -23,7 +23,7 @@ title: Development
 </div>
 
 <div class="message">
-- MAC<br>
+- Mac<br>
   {% for post in site.posts %}
   {% if post.tag == "mac" %}
   <a href="{{ post.url }}">{{ post.title }}</a><br>
